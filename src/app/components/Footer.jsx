@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="bg-black text-center text-white lg:text-left">
       <div className="mx-6 py-10 text-center md:text-left">
         <div className="grid-1 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
-          <div className="mb-4 flex flex-col text-left">
+          <div className=" flex flex-col text-left">
             <Image src={logo} alt="logo" width={250} />
             <div className="text-left">
               <h6 className="text-3xl font-bold">About us</h6>
@@ -19,7 +19,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="">
-            <h6 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
+            <h6 className=" flex justify-center font-semibold uppercase md:justify-start">
               Quick links
             </h6>
             <hr className="my-3 w-44 bg-white" />
@@ -75,54 +75,84 @@ const Footer = () => {
             </p>
           </div>
           <div className="">
-            <h6 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
+            <h6 className=" flex justify-center font-semibold uppercase md:justify-start">
               Advertisements
             </h6>
             <hr className="my-3 w-44 bg-white" />
-            <p className="mb-4">
+            <p className="">
               <a href="#!" className="text-neutral-600 dark:text-neutral-200">
-                Pricing
+                Interviews
               </a>
             </p>
-            <p className="mb-4">
+            <p className="">
               <a href="#!" className="text-neutral-600 dark:text-neutral-200">
-                Settings
+                Cover Story
               </a>
             </p>
-            <p className="mb-4">
+            <p className="">
               <a href="#!" className="text-neutral-600 dark:text-neutral-200">
-                Orders
+                Products
               </a>
             </p>
             <p>
               <a href="#!" className="text-neutral-600 dark:text-neutral-200">
-                Help
+                Editor’s Desk
+              </a>
+            </p>
+            <p>
+              <a href="#!" className="text-neutral-600 dark:text-neutral-200">
+                Lessons Learned
               </a>
             </p>
           </div>
           <div className="">
-            <h6 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
+            <h6 className=" flex justify-center font-semibold uppercase md:justify-start">
               Company
             </h6>
             <hr className="my-3 w-44 bg-white" />
-            <p className="mb-4">
+            <p className="">
               <a href="#!" className="text-neutral-600 dark:text-neutral-200">
-                Pricing
+                About Us
               </a>
             </p>
-            <p className="mb-4">
+            <p className="">
               <a href="#!" className="text-neutral-600 dark:text-neutral-200">
-                Settings
+                Editorial
               </a>
             </p>
-            <p className="mb-4">
+            <p className="">
               <a href="#!" className="text-neutral-600 dark:text-neutral-200">
-                Orders
+                Advisory
               </a>
             </p>
             <p>
               <a href="#!" className="text-neutral-600 dark:text-neutral-200">
-                Help
+                Automation
+              </a>
+            </p>
+            <p>
+              <a href="#!" className="text-neutral-600 dark:text-neutral-200">
+                Expo
+              </a>
+            </p>
+            <p>
+              <a href="#!" className="text-neutral-600 dark:text-neutral-200">
+                Privacy
+              </a>
+            </p>
+            <p>
+              <a href="#!" className="text-neutral-600 dark:text-neutral-200">
+                Policy
+              </a>
+            </p>
+            <p>
+              <a href="#!" className="text-neutral-600 dark:text-neutral-200">
+                Careers
+              </a>
+            </p>
+            <p>
+              <a href="#!" className="text-neutral-600 dark:text-neutral-200">
+                Terms & Conditions
               </a>
             </p>
           </div>

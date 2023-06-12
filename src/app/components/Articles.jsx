@@ -10,7 +10,7 @@ const Articles = () => {
   return (
     <main className="my-20 mx-40">
       <h1 className="text-4xl font-bold text-center mb-10">Articles</h1>
-      <div className="grid grid-cols-3 gap-2">
+      <div className="grid grid-cols-3 gap-2 items-start">
         {array1.map((val, ind) => {
           return (
             <div className="relative w-fit" key={ind}>
